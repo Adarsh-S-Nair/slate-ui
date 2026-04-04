@@ -92,7 +92,7 @@ export function Dropdown({
           ref={triggerRef}
           onClick={() => setIsOpen(!isOpen)}
           className={clsx(
-            "inline-flex items-center justify-between gap-2 rounded-lg font-medium whitespace-nowrap",
+            "inline-flex items-center justify-between gap-2 rounded-lg font-medium whitespace-nowrap cursor-pointer",
             "transition-all duration-200 ease-out",
             "bg-[var(--color-input-bg)] text-[var(--color-fg)]",
             "hover:bg-[var(--color-bg)]",
