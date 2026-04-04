@@ -94,9 +94,8 @@ export function Dropdown({
           className={clsx(
             "inline-flex items-center justify-between gap-2 rounded-lg font-medium whitespace-nowrap",
             "transition-all duration-200 ease-out",
-            "bg-[var(--color-surface)] text-[var(--color-fg)]",
-            "border border-[var(--color-border)]",
-            "hover:bg-[var(--color-bg)] hover:border-[var(--color-muted)]",
+            "bg-[var(--color-input-bg)] text-[var(--color-fg)]",
+            "hover:bg-[var(--color-bg)]",
             "focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-ring)]",
             sizeClasses
           )}
@@ -117,7 +116,6 @@ export function Dropdown({
           className={clsx(
             "absolute top-full mt-1 z-50",
             "glass-panel backdrop-blur-md rounded-lg overflow-hidden",
-            "border border-[var(--color-border)]",
             "shadow-lg shadow-black/5 dark:shadow-black/30",
             align === "right" ? "right-0" : "left-0"
           )}
