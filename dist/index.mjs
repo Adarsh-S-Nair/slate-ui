@@ -486,8 +486,8 @@ function Dropdown({
         className: clsx7(
           "inline-flex items-center justify-between gap-2 rounded-lg font-medium whitespace-nowrap cursor-pointer",
           "transition-all duration-200 ease-out",
-          "bg-[var(--color-input-bg)] text-[var(--color-fg)]",
-          "hover:bg-[var(--color-bg)]",
+          "bg-[var(--color-dropdown-bg,var(--color-input-bg))] text-[var(--color-fg)]",
+          "hover:brightness-[0.97] dark:hover:brightness-[1.1]",
           "focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-ring)]",
           sizeClasses
         ),
