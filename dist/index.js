@@ -490,10 +490,9 @@ function Dropdown({
         ref: triggerRef,
         onClick: () => setIsOpen(!isOpen),
         className: clsx7__default.default(
-          "inline-flex items-center justify-between gap-2 rounded-lg font-medium whitespace-nowrap cursor-pointer",
-          "transition-all duration-200 ease-out",
+          "inline-flex items-center justify-between gap-2 rounded-lg font-medium whitespace-nowrap cursor-default",
+          "transition-colors duration-200 ease-out",
           "bg-[var(--color-dropdown-bg,var(--color-input-bg))] text-[var(--color-fg)]",
-          "hover:brightness-[0.97] dark:hover:brightness-[1.1]",
           "focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-ring)]",
           sizeClasses
         ),
